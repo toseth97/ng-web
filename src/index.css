@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.color1 {
+  color: #FF70A3;
+}
+
+
+
+a {
+  transition: .2s ease-in-out;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #FF70A3;
+}
+
+.hire {
+  background-color: #FF70A3;
+  color: white;
+
+}
+
+.hire:hover {
+  background-color: #f387ad;
+  color: white;
+}
+
+img {
+  mix-blend-mode: multiply;
+}
