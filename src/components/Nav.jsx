@@ -5,7 +5,7 @@ const Navlinks = () => {
     return (
         <>
             <a href='/' className='px-4 mx-1 py-2 my-1 block lg:inline'>Home</a>
-            <a href='/' className='px-4 mx-1 py-2 my-1 block lg:inline'>About</a>
+            <a href='/about' className='px-4 mx-1 py-2 my-1 block lg:inline'>About</a>
             <a href='/' className='px-4 mx-1 py-2 my-1 block lg:inline'>Contact</a>
             <a href='/' className='px-4 mx-1 py-2 my-1 block lg:inline'>Portfolio</a>
             <a href='/' className='px-4 mx-1 py-2 my-1 block lg:inline hire rounded '>Hire Me</a>
