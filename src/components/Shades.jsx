@@ -1,6 +1,7 @@
 import React from 'react'
 import shades from "../static/images/Shades.png"
 import chats from "../static/images/chats.png"
+import shadeChart from "../static/images/shade_chart.png"
 
 
 const Shades = () => {
@@ -42,7 +43,7 @@ const Shades = () => {
                 </div>
 
             </section>
-            <section className='flex lg:w-8/12 w-full justify-between lg:flex-row flex-col lg:px-24 md:px-16 px-8 mt-8 items-center' >
+            <section className='flex lg:w-8/12 w-full justify-center lg:flex-row flex-col lg:px-24 md:px-16 px-8 mt-8 items-center' >
 
                 <img src={chats} alt='chats' className='rounded-lg mt-4 lg:mt-0' />
             </section>
@@ -58,9 +59,79 @@ const Shades = () => {
                     <li>Design</li>
                     <li>Testing</li>
                 </ul>
-                <h1 className='my-2 text-2xl'>Emphathise</h1>
-                <h1 className='my-2 text-xl'>The target audience</h1>
+                <h1 className='my-2 text-2xl font-bold'>Emphathise</h1>
+                <h1 className='my-2 font-bold'>The target audience</h1>
                 <p>I segmented users into two user groups and they are:</p>
+                <ul className='list-circle ml-8'>
+                    <li className='text-justify'>
+                        Primary users: People in the age of 18-60 who want to partner up and build a relationship with someone of similar interests.
+                    </li>
+                    <li className='text-justify'>
+                        Secondary users: People in the age 18-45 who want to meet new people and create a spark for the goal of friendship and
+                        companionship.
+                    </li>
+                </ul>
+                <h1 className='font-bold my-2 mt-2'>Hypothesis</h1>
+                <p className='text-justify'>African immigrants want to find and partner up with people that are compatible with them and build a connection that can develop into a relationship or just mainly friendships and companionships.</p>
+                <h1 className='font-bold my-2 mt-2'>Quantity Survey</h1>
+                <p className='text-justify'>
+                    Understanding the problem space was very important for me and to get started with research, I conducted a remote survey to collect some numbers and real time data. The survey was filled by 5 African immigrants and these insights helped me further, throughout the project.
+
+                </p>
+
+            </section>
+            <section className='flex bg-green-100 lg:w-8/12 w-full justify-center lg:flex-row flex-col lg:px-24 md:px-16 px-8 mt-8 items-center rounded' >
+
+                <img src={shadeChart} alt='chart' className='rounded-lg mt-4 lg:mt-0' />
+            </section>
+            <section className='lg:w-8/12 w-11/12 mt-8'>
+
+                <h1 className='my-2 text-2xl font-bold'>Survey questions</h1>
+
+                <ul className='list-square ml-8'>
+                    <li>How do you socialize in the UK?</li>
+                    <li className='text-justify'>
+                        What do you hope to accomplish when you reach out to someone for the first time?
+
+                    </li>
+                    <li className='text-justify'>
+                        What is most important to you when it comes to socialization and meeting new people?
+                    </li>
+                    <li className='text-justify'>
+                        What actions do you take to meet your goal of socialization at any time?
+                        What mood, feeling, situation, or event often leads you to want to socialize?
+                    </li>
+                    <li className='text-justify'>
+                        What does your day-to-day routine look like?
+                        What situation, or thing prevents you from accomplishing your goal of meeting and connecting with new people?️
+                    </li>
+                    <li>What do you do for work?</li>
+                </ul>
+                <h1 className='my-2 text-2xl font-bold'>Key survey insights</h1>
+
+                <ul className='list-circle ml-8'>
+                    <li className='text-justify'>60% of the immigrants interviewed socialised through school, churches and catching up on whatsapp, 40% just works and stay home when there’s nothing to do.</li>
+                    <li className='text-justify'>50% of them just want to make friends while the other 50% will like to date.</li>
+                    <li className='text-justify'>50% will  like to meet people with similar ideals, 25% prefers someone from the same nationality while the other 25% are open to explore.</li>
+                    <li className='text-justify'>25% are scared of rejection, 50% work long hours and the other 25% are not sure where to start from,</li>
+                    <li className='text-justify'>100% of the people interview miss home and often feel lonely which makes them want to meet new people whether for dating or friends.</li>
+                </ul>
+                <h1 className='my-2 text-2xl font-bold'>Research Summary</h1>
+
+                <ul className='list-circle ml-8'>
+                    <li>What was the goal of the research?</li>
+                    <p className='text-justify'>The goal of this research was to understand and find out how Africans in the UK approach and engage in Socialization. I found out that
+                        60% of the research participants struggle with socialization in the UK.</p>
+                    <li>Describe the people you spoke with and how?</li>
+                    <p className='text-justify'>I interviewed 5 participants by collecting their responses to the research questions remotely through a Survey.</p>
+                    <li>Describe how you gathered the data.</li>
+                    <p className='text-justify'>I gathered user data through Google Forms.</p>
+                    <li>Describe the type of analysis you’ll be using to extract insights from this data.</li>
+                    <p className='text-justify'>I will be using data analysis and affinity mapping to extract insights and distil these insights into user stories and scenarios
+                    </p>
+                    <li>Summarize findings.</li>
+                    <p className='text-justify'>These findings helped me to create user personas that are living and breathing whom I will be designing a solution for.</p>
+                </ul>
 
             </section>
 
