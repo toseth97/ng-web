@@ -32,11 +32,34 @@ img {
   mix-blend-mode: multiply;
 }
 
+.contact {
+  height: 70vh;
+}
+
+.shadeLogo {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 25%;
+  position: relative;
+  background: linear-gradient(139.56deg, #FFFFFF 5.78%, #FFFFFF 6.07%, rgba(255, 255, 255, 0.23) 86.1%);
+  backdrop-filter: blur(47.8022px);
+
+}
+
+.barge {
+  width: 3rem;
+  height: 3rem;
+  right: -10px;
+  top: -10px;
+  border-radius: 50%;
+
+}
+
+
 footer {
   background-color: #ff70a2f8;
   color: white;
   width: 100%;
   backdrop-filter: blur(5px);
-  position: sticky;
-  bottom: 0;
+
 }

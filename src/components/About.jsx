@@ -38,6 +38,14 @@ const About = () => {
                 </div>
                 <img src={Ngozi2} alt='shade' width={250} className='rounded-lg mt-4 lg:mt-0 lg:ml-24' />
             </section>
+            <section className='flex lg:w-8/12 w-full justify-between lg:flex-row flex-col  px-8 mt-8 items-center gap-8' >
+                <div className='w-full text-justify'>
+                    <h1 className='color1 text-2xl font-bold text-center'>What i do when i’m not working.</h1>
+                    <p>
+                        When i’m not  working, you will find me either learning something new, baking, writing, hanging out with friends & family or watching cartoons.
+                    </p>
+                </div>
+            </section>
         </>
     )
 }

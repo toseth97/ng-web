@@ -12,12 +12,14 @@ const Hero = () => {
                 <p className='lg:text-center text-justify'>A UI/UX/Product designer with a background in event planning and 3 years of experience working and perfecting my skills in design, leadership, complex problem solving and communication. I believe the empathise phase is a very important step in the design process as how can we ever hope to create usable products without empathy. I am based in Leeds, UK.</p>
 
             </section>
+            <h1 className='color1 text-center text-2xl mt-8 mb-4 font-bold underline'>Projects</h1>
             <section className='flex lg:w-8/12 w-full justify-between lg:flex-row flex-col lg:px-24 md:px-16 px-8 mt-8 items-center' >
                 <div className='lg:w-4/12 w-full'>
-                    <h1 className='color1 text-2xl font-bold text-center'><a href='/'>Shades</a></h1>
+                    <h1 className='color1 text-2xl font-bold text-center'>Shades</h1>
                     <p className='text-center'>Reimagining Socialization
                         among African Immigrants in the uk.
                     </p>
+                    <p className='text-center'><a href='/shades'>View site</a></p>
                 </div>
                 <img src={Shades} alt='shade' width={400} className='rounded-lg mt-4 lg:mt-0' />
             </section>
@@ -32,7 +34,7 @@ const Hero = () => {
             </section>
             <section className='flex lg:w-8/12 w-full justify-between lg:flex-row flex-col lg:px-24 md:px-16 px-8 mt-8 items-center' >
                 <div className='lg:w-4/12 w-full'>
-                    <h1 className='color1 text-2xl font-bold text-center'><a href='/'>Erika</a></h1>
+                    <h1 className='color1 text-2xl font-bold text-center'><a href='/'>Efika</a></h1>
                     <p className='text-center'>Your effective and efficient party planning app.
                     </p>
                 </div>
