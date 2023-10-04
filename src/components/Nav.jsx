@@ -7,7 +7,7 @@ const Navlinks = () => {
             <a href='/' className='px-4 mx-1 py-2 my-1 block lg:inline'>Home</a>
             <a href='/about' className='px-4 mx-1 py-2 my-1 block lg:inline'>About</a>
             <a href='/contact' className='px-4 mx-1 py-2 my-1 block lg:inline'>Contact</a>
-            <a href='https://www.linkedin.com/in/ngozi-lawal-2816b473/' target='_blank' className='px-4 mx-1 py-2 my-1 block lg:inline'>LinkedIn</a>
+            <a href='https://www.linkedin.com/in/ngozi-lawal-2816b473/' target='_blank' rel="noreferrer" className='px-4 mx-1 py-2 my-1 block lg:inline'>LinkedIn</a>
             <a href='/' className='px-4 mx-1 py-2 my-1 block lg:inline hire rounded '>Hire Me</a>
         </>
     )
